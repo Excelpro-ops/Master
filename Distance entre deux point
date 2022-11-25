@@ -1,0 +1,1 @@
+=LAMBDA(From;To;(3959*2)*ASIN(RACINE(0,5-COS((To.Latitude-From.Latitude)*PI()/180)/2+COS(From.Latitude*PI()/180)*COS(To.Latitude*PI()/180)*(1-COS((To.Longitude-From.Longitude)*PI()/180))/2)))
